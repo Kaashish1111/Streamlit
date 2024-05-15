@@ -2,8 +2,8 @@
 import streamlit as st
 # streamlit provides us with two type of header : a.header and b. subheader
 st.title("Hello Streamlit")
-st.header("Welcome")
-st.subheader("apka hardik sawagt hai")
+st.header("header")
+st.subheader("subheader")
 st.text("hii my name is kashish")
 # To format the text
 st.markdown(""" # h1 tag
@@ -20,4 +20,13 @@ _italics_
 # cheatsheet that have all the basic commands in markdwon https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 # How to use latex
-st.latex("")
+st.latex(''' Quadratic Equation formula: x = [-b ± sqrt(b^2 - 4ac)] / (2a)''')
+
+st.write("# kashish")
+dicti={
+    "name":"kashish",
+    "age":18,
+    "gender":"female",
+    "hobbies":["coding","reading","playing"],
+}
+st.write(dicti)
