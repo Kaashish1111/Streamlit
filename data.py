@@ -7,6 +7,6 @@ nd=n.reshape((2,4))
 dic={
     "name":"Kashish"
     "age":18
-    "Topic":Streamlit
-    
+    "Topic":"Streamlit"
 }
+data=
