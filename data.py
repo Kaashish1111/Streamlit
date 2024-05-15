@@ -13,10 +13,10 @@ dic={
 data=pd.read_csv("data//Salary_Data.csv")
 # print(data)
 
-# st.dataframe(a)
-# st.dataframe(n)
-# st.dataframe(nd)
-st.dataframe(data, width=500,height=500)
+# st.DataFrame(a)
+# st.DataFrame(n)
+# st.DataFrame(nd)
+st.DataFrame(data, width=500,height=500)
 # or
 # st.table(data) # here we get all the data not a scroll bar
 st.json(dic)
